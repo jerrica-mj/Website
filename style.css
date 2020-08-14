@@ -1,0 +1,70 @@
+/*Website Styles*/
+/*Reset rule(s) for all HTML tags*/
+ /* * {
+  font-size: 100%;
+}*/
+
+/*Body styling*/
+body{
+  background-color: floralwhite;
+  /*Setting the font color*/
+  color: darkolivegreen;
+  /*Setting the font style or family*/
+  font-family: 'Antic Slab', cambria, palatino, garamond;
+  font-size: 14px;
+}
+
+/*All Headings styling*/
+h1, h2, h3{
+  /*Google Font 'Amatic SC' only available in 400(lighter or normal) and 700(bold) weights*/
+  font-weight: bold;
+  font-style: italic;
+}
+
+/*Heading 1 styling*/
+h1{
+  background-color: darkblue;
+  color: floralwhite;
+  font-family: 'Amatic SC', optima, trebuchet, helvetica;
+  font-size: 36px;
+  line-height: 3;
+  text-align: left;
+}
+
+/*Header Heading 1 styling*/
+/*Nested Selector Syntax = parent child {CSS rule(s)}*/
+header h1 {
+  text-align: center;
+}
+
+/*Heading 2 styling*/
+h2{
+  /* background-color: blue; */
+  color: darkblue;
+  font-family: 'Amatic SC', optima, trebuchet, helvetica;
+  font-size: 24px;
+  line-height: 2;
+}
+
+/*Heading 3 styling*/
+h3{
+  font-size: 18px;
+}
+
+/*Paragraph styling*/
+p{
+  color: dimgray;
+  line-height: 2;
+}
+
+/*Anchor styling*/
+a{
+  colour: deepskyblue;
+  text-decoration: none;
+}
+
+/*Anchor hover state styling*/
+/*Pseudo-Class Selector Syntax = element:state {CSS rule(s)}*/
+a:hover {
+  text-decoration: underline;
+}
