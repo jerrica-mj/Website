@@ -10,7 +10,11 @@
 
 /*Body styling*/
 body {
-  background-color: floralwhite;
+  /*Styling the body background*/
+  /* background-color: floralwhite; */
+  background-image: url(images/geometric-leaves.png);
+  /*Bacground image repeat (repeat or no-repeat) -- set to repeat by default*/
+  background-repeat: repeat;
   /*Setting the font color*/
   color: darkolivegreen;
   /*Setting the font style or family*/
@@ -27,6 +31,12 @@ header, section, footer {
 /*Header styling*/
 header {
   border-top: 5px solid grey;
+}
+
+/*Banner styling*/
+.banner{
+  height: 350px;
+  background-image: url(images/banner-small.jpg);
 }
 
 /*Section styling*/
@@ -105,11 +115,25 @@ img {
   height: 50%;
 }
 
+/*Table styling*/
+table{
+  border: 2px solid black;
+}
+td{
+  border: 1px solid blue;
+}
+
 /*Title class styling*/
 /*Class Selector Syntax = .class-name {CSS rule(s)} || class selectors are specific & overule proceding general type selectors (like h1)*/
 .title{
   font-size: 48px;
   text-decoration: underline overline;
+}
+
+/*Container class styling*/
+.container{
+  max-width:1000px;
+  margin: 0 auto;
 }
 
 /*Button-to-top class styling*/
