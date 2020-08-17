@@ -15,6 +15,7 @@ body {
   background-image: url(images/geometric-leaves.png);
   /*Bacground image repeat (repeat or no-repeat) -- set to repeat by default*/
   background-repeat: repeat;
+  background-position: 50% 0;
   /*Setting the font color*/
   color: darkolivegreen;
   /*Setting the font style or family*/
@@ -35,8 +36,12 @@ header {
 
 /*Banner styling*/
 .banner{
-  height: 350px;
+  height: 150px;
+  /* width: 300px; */
   background-image: url(images/banner-small.jpg);
+  background-size: cover;
+  /*Banner image positioning (y- then x-axis) -- accepts %, px, keywords */
+  background-position: center;
 }
 
 /*Section styling*/
